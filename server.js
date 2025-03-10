@@ -28,3 +28,5 @@ const host = process.env.HOST
 app.listen(port, () => {
   console.log(`app listening on ${host}:${port}`)
 })
+
+const expressLayouts = require("express-ejs-layouts")
