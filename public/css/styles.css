@@ -67,8 +67,14 @@ nav ul li a:hover {
 
 .hero-content {
   position: relative;
+  width: 300px;
+  height: auto;
+  padding: 25px;
+  border: none;
+  border-radius: 10px;
   z-index: 2;
   color: #333;
+  background-color: rgba(199, 197, 197, 0.2)
 }
 
 .hero h2 {
